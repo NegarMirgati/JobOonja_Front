@@ -18,7 +18,8 @@
     overflow: hidden;
     background-color:white;
     padding: 1% 1%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
+    min-height: 30px;
 
 
   }
@@ -28,7 +29,7 @@
     float: left;
     color: black;
     text-align: center;
-    padding: 12px;
+    padding: 6px;
     text-decoration: none;
     font-size: 18px; 
     line-height: 25px;
@@ -76,10 +77,11 @@
   }
 
   .content {
-    /*overflow: hidden;
-    margin-top : 5%;*/
+    position: absolute;
+    top : 350px;
     padding: 50px;
-    background-color: aqua;
+    background-color: white;
+    font-family: Vazir;
   }
 
   .sticky {
@@ -94,7 +96,7 @@
 
   .box{
     overflow: hidden;
-    padding-top: 20%;
+    padding-top: 15%;
     padding-right: 10%;
 
   }
@@ -105,10 +107,30 @@
     z-index: 10;
     top: 100px;
     left: 75%;
-    width: 20%;
-    height: 30%;
+    width: 17%;
+    height: 25%;
     border-radius: 50px;
     border: 8px solid white;
+    }
+
+  .profile-name
+  {
+    position: absolute;
+    z-index: 10;
+    top: 250px;
+    left: 63%;
+    font-family: Vazir-Bold;
+    font-size: 200%;
+    }
+
+    .profile-job
+  {
+    position: absolute;
+    z-index: 10;
+    top: 310px;
+    left: 63%;
+    font-family: Vazir;
+    font-size: 100%;
     }
    
   .blue{
@@ -145,6 +167,29 @@
   src: url('./iransans/eot/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'),
     url('./iransans/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'), url('./iransans/woff/IRANSansWeb_UltraLight.woff') format('woff'),
     url('./iransans/ttf/IRANSansWeb_UltraLight.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: Vazir-Black;
+  src: url('../fonts/vazir-font-v19.2.0/Vazir-Black.eot');
+  src: url('../fonts/vazir-font-v19.2.0/Vazir-Black.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/vazir-font-v19.2.0/Vazir-Black.woff2') format('woff2'),
+       url('../fonts/vazir-font-v19.2.0/Vazir-Black.woff') format('woff'),
+       url('../fonts/vazir-font-v19.2.0/Vazir-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vazir-Bold;
+  src: url('Vazir-Bold.eot');
+  src: url('../fonts/vazir-font-v19.2.0/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/vazir-font-v19.2.0/Vazir-Bold.woff2') format('woff2'),
+       url('../fonts/vazir-font-v19.2.0/Vazir-Bold.woff') format('woff'),
+       url('../fonts/vazir-font-v19.2.0/Vazir-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 
 
