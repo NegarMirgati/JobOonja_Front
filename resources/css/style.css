@@ -17,8 +17,10 @@
     position: fixed;
     overflow: hidden;
     background-color:white;
-   
-    height: 7%;
+    padding: 1% 1%;
+    margin-bottom: 5%;
+
+
   }
   
   /* Style the header links */
@@ -31,12 +33,12 @@
     font-size: 18px; 
     line-height: 25px;
     border-radius: 4px;
+
   }
   
   .header img {
     width:  9%;
     height: 100%;
-
     margin-left: 6.75%;
     margin-right: 10%;
     float:right;
@@ -58,10 +60,9 @@
   /* Float the link section to the right */
   .header-left {
     float: left;
-    margin-left: 10%;
     font-family: Vazir-1;
   }
-  
+
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
   @media screen and (max-width: 500px) {
     .header a {
@@ -75,19 +76,44 @@
   }
 
   .content {
-    padding: 16px;
+    /*overflow: hidden;
+    margin-top : 5%;*/
+    padding: 50px;
     background-color: aqua;
   }
 
-
-  .content img {
-    width: 20%;
-    height: 20%;
-    margin-right: 35%;
-    margin-left: 35%;
-    margin-bottom: 10%;
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
   }
 
+  .box{
+    overflow: hidden;
+    padding-top: 20%;
+    padding-right: 10%;
+
+  }
+
+.profile-photo
+  {
+    position: absolute;
+    z-index: 10;
+    top: 100px;
+    left: 75%;
+    width: 20%;
+    height: 30%;
+    border-radius: 50px;
+    border: 8px solid white;
+    }
+   
+  .blue{
+    background : rgb(186, 239, 241);
+  }
 
 @font-face {
     font-family: Vazir;
