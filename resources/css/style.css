@@ -9,17 +9,21 @@
   background-color: rgb(54,54,54);
   color: white;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 15px;
   font-family: 'Vazir';
+  color: rgb(128, 128, 128);
+  
 }
 
 .header {
     position: fixed;
     overflow: hidden;
     background-color:white;
-    padding: 1% 1%;
+    padding-top: 0.4%;
+    padding-left: 10%;
     margin-bottom: 1%;
-    min-height: 30px;
+    min-height: 20px;
+    z-index: 20;
 
 
   }
@@ -30,11 +34,11 @@
     color: black;
     text-align: center;
     padding: 6px;
+    padding-right: 20px;
     text-decoration: none;
     font-size: 18px; 
     line-height: 25px;
     border-radius: 4px;
-
   }
   
   .header img {
@@ -45,7 +49,7 @@
     float:right;
     
 }
-
+ 
   /* Change the background color on mouse-over */
   .header a:hover {
     background-color: #ddd;
@@ -77,10 +81,10 @@
   }
 
   .content {
-    position: absolute;
-    top : 350px;
-    padding: 50px;
-    background-color: white;
+    position: relative;
+    padding: 200px;
+    height: 100%;
+    background-color:rgb(246, 246, 246);
     font-family: Vazir;
   }
 
@@ -90,51 +94,79 @@
     width: 100%;
   }
   
-  .sticky + .content {
+  /*.sticky + .content {
     padding-top: 102px;
-  }
+  }*/
 
   .box{
+    position: relative;
     overflow: hidden;
     padding-top: 15%;
     padding-right: 10%;
+    height : 30%;
 
+  }
+
+  .rectangle {
+    position: absolute;
+    top: 165px;
+    z-index: 10;
+    height: 5%;
+    width: 10px;
+    left: 75%;
+    background:rgb(137, 210, 210);
+  }
+
+  .profile{
+    background-color: rgb(246, 246, 246);
+    width:100%;
   }
 
 .profile-photo
   {
     position: absolute;
     z-index: 10;
-    top: 100px;
+    top: 14%;
     left: 75%;
     width: 17%;
     height: 25%;
-    border-radius: 50px;
+    border-radius: 25px;
     border: 8px solid white;
+    float : left;
     }
 
   .profile-name
   {
-    position: absolute;
+    padding-top: -1%;
+    padding-left: 64%;
+    margin-left: -1%;
     z-index: 10;
-    top: 250px;
-    left: 63%;
+    left: 50%;
     font-family: Vazir-Bold;
     font-size: 200%;
-    }
+    background-color: rgb(246, 246, 246);
+  }
 
-    .profile-job
+  .profile-job
   {
-    position: absolute;
+    padding-left: 64%;
     z-index: 10;
-    top: 310px;
+    top: 37%;
     left: 63%;
     font-family: Vazir;
     font-size: 100%;
+    background-color: rgb(246, 246, 246);
     }
    
   .blue{
     background : rgb(186, 239, 241);
+  }
+
+  .rtl-text{
+    direction : rtl;
+    text-align : right;
+    font-family: Vazir;
+    background-color: rgb(246, 246, 246);
   }
 
 @font-face {
