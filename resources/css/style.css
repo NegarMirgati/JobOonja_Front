@@ -164,6 +164,10 @@ html, body{
   .badge-blue{
     background-color: rgb(187,239,241);
   }
+  .badge-red{
+    background-color: rgb(212, 11, 36);
+  }
+
   .blue-box{
     background-image: linear-gradient(rgb(177, 227, 229), rgb(186, 239, 241));
     height: 80%;
