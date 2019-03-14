@@ -13,9 +13,9 @@
 <nav class="site-header sticky-top py-1">
       <div class="container d-flex flex-column flex-md-row">  
         <a class="d-inline-block h-100 p-1 "  href="#">خروج </a>
-        <a class="d-inline-block h-100 p-1 w-25" href="#">حساب کاربری</a>
+        <a id = "account" class="d-inline-block h-100 p-1 " href="#">حساب کاربری</a>
         <div class="d-inline h-100 p-1">
-          <img class = "header-img" src = "resources/logo/logo v1.png">
+          <img class = "header-img" src = "resources/logo/logo v1.png"/>
         </div>
 
       </div>
@@ -32,11 +32,11 @@
   <div class = "col-sm-1">
     </div>
     <div class = "col-sm-6 text-right">
-      <p class = "profile-name"> استیو جابز </p>
-      <p class = "profile-job"> بنیانگزار اپل </p>
+      <p class = "profile-name"> دیبی </p>
+      <p class = "profile-job"> خوار خوار خوارم من </p>
     </div>
     <div class = "col-sm-3">
-       <img  src="resources/images/jobs.jpg" class="rounded profile-photo img-responsive " alt="image">
+       <img  src="resources/images/dibi.jpeg" class="img-responsive img-rounded profile-photo " alt="image"/>
     </div>
     
   </div>
@@ -49,21 +49,24 @@
    </div>
   </div>
 
-<div class = "row justify-content">
-     <div class = "col-sm-4 text-right" style = " margin-left: 55%;">
-      <p> مهارت ها </p>
-      </div>
-    <div class = "add-skill-form-container col-sm-8">
-      <form class = "add-skill-form">
-        <select class =  "add-skill-input" name placeholder ="--انتخاب مهارت--">
-          <option value="" >--انتخاب مهارت--</option>
-          <option value="Python">Python</option>
-          <option value="Java">Java</option>
-          <option value="Database">Database</option>
-        </select>
-        <button type = "button" class = "add-skill-button" > افزودن مهارت </button>
-      </form>
+<div class = "row justify-content" id = "skill-row">
+    <div class = "col-sm-10">
+      <div class = "add-skill-form-container">
+        <form class = "add-skill-form">
+          <button type = "button" class = "add-skill-button" > افزودن مهارت </button>
+            <select class =  "add-skill-input" name placeholder ="--انتخاب مهارت--">
+              <option>  --انتخاب مهارت--  </option>
+              <option value="Python">Python</option>
+              <option value="Java">Java</option>
+              <option value="Database">Database</option>
+            </select>
+          </form>
+        </div>
    </div>
+
+        <div class = "col-sm-2 text-right" id = "add-skill-name">
+      <p>  :مهارت ها </p>
+      </div>
 
   </div>
 

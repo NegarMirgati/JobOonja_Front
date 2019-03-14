@@ -4,6 +4,7 @@
 html, body{
   height: 100%;
   width: 100%;
+  background-color: rgb(246, 246, 246);
 }
 .container-fluid {
   height: 100%;
@@ -12,8 +13,8 @@ html, body{
 .site-header {
   background-color: white;
   height: 6%;
-  margin-top : 0.5%;
-  margin-left : 8%;
+  margin-top : 0%;
+  padding-left : 8%;
 }
 
 .header-img {
@@ -34,6 +35,8 @@ html, body{
   font-size: 17px; 
   width : 13%;
   display: inline-block;
+  padding: 12px;
+  line-height: 25px;
 }
 .site-header a:hover {
   background-color: #ddd;
@@ -58,7 +61,6 @@ html, body{
   position: fixed;
   bottom: 0;
   height: 7%;
-  margin-top: -40px;
   width: 100%;
   background-color: rgb(54,54,54);
   color: white;
@@ -66,11 +68,9 @@ html, body{
   padding-top: 15px;
   font-family: 'Vazir';
   color: rgb(128, 128, 128);
-  
 }
 
   .main {
-    height: calc(100vh - 7% - 7%);
     width: 100%;
     padding-top: 0%;
     padding-left: 0%;
@@ -86,23 +86,25 @@ html, body{
   }
   
   .rectangle {
-    top: 165px;
+    top: 40%;
     z-index: 1000;
     height: 40%;
     width: 3%;
-    margin-top : -40%; 
-    margin-left: -7%;
+    margin-top : -50%; 
+    margin-left: -5%;
     background:rgb(137, 210, 210);
+    position: relative;
   }
 
   .rectangle-2 {
-    top: 165px;
+    top: 40%;
     z-index: 1000;
     height: 40%;
-    width: 5%;
+    width: 10%;
     margin-top : -40%; 
     margin-left: -10%;
     background:rgb(137, 210, 210);
+    position: relative;
   }
 
   .profile{
@@ -112,13 +114,16 @@ html, body{
 
 .profile-photo
   {
-    height : 260%; 
+    height : 255%; 
     width : 65%; 
     margin-top : -40%; 
     margin-left: -3%;
     z-index : 12;
-    border-radius: 30%;
+    border-radius: 20%;
     border: 8px solid white;
+    z-index: 2;
+    position: relative;
+    
     }
 
   .profile-name
@@ -140,6 +145,12 @@ html, body{
     background-color: rgb(246, 246, 246);
   }
 
+@media screen and (max-width : 1100px){
+  .profile-photo{
+  max-height : 180px;
+  }
+}
+
   @media screen and (max-width: 600px) 
 {
   .profile-photo, .profile-name
@@ -148,7 +159,9 @@ html, body{
     }
 }
 
-
+.site-header #account{
+  width: 40%;
+}
 
   .skill{
     padding-right : 1%;
@@ -175,15 +188,55 @@ html, body{
 
   .skills{
     padding-left : 5%;
+    overflow: scroll;
+    padding-top : 2%;
+    margin-bottom : 7%;
+  }
+  .skills button{
+    padding : 3px;
+  }
+
+  .skills button:hover{
+    background-color: #ddd;
+  }
+
+  .skills button .badge{
+    padding : 5px;
   }
 
   .add-skill-form-container{
-    margin-left: 60%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    margin-bottom: 1rem;
+    background-color: white;
+    padding-top : 0.5%;
+    padding-bottom : 0.5%;
+    /*border:0.5px outset black ;background:white;*/
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 35%;
+    float: right;
+
+  }
+
+  #skill-row{
+    height: 18%;
+    padding-top : 2%;
+  }
+
+  #add-skill-name{
+    padding-top : 1%;
+    padding-right : 6%;
+    font-family: Vazir-Bold;
   }
 
   .add-skill-form-container .add-skill-form .add-skill-input{
     background: #f9f9f9;
     border : 1px solid #eeeeee;
+    width : 68%;
+    padding : 2% 3%;
+    text-align: left;
+    
   }
   
   .add-skill-button{
@@ -191,10 +244,18 @@ html, body{
     font-family: Vazir-1;
     color: white;
     border-radius: 4px;
+    width: 30%;
+    height : 60%;
+  }
+
+  .add-skill-button:hover{
+
+    background-color: #1bb5c2;
   }
 
   .rtl-text{
     direction : rtl;
+    overflow: scroll;
     text-align : right;
     font-family: Vazir;
     font-size: 90%;
@@ -202,6 +263,7 @@ html, body{
     padding-right: 5%;
     padding-left: 5%;
     padding-top: 2%;
+    margin-bottom: 0%;
   }
 
   .row-100{
