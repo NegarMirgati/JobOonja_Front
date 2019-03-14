@@ -181,13 +181,44 @@
   background-color: white;
 }
 
-.result {
+.bidFormTitle{
+  font-weight: bold;
+  color: black;
+  top:5px;
+}
+
+.bidForm{
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+.bidBtnColor {
+  background-color: darkturquoise;
+  color: white;
+}
+
+.bidColor {
+  background-color: white;
+  color:darkturquoise;
+}
+.bidBoeder{
+  border:1px solid darkturquoise;
+}
+.resultPos {
   color: green;
   font-weight:bold;
   top: 10px;
   right: 7px;
   display: inline;
 }
+.resultNeg {
+  color: red;
+  font-weight:bold;
+  top: 10px;
+  right: 7px;
+  display: inline;
+}
+
 
 .footer {
   position: fixed;
