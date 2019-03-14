@@ -189,7 +189,6 @@ html, body{
   .skills{
     padding-left : 5%;
     overflow: scroll;
-    padding-top : 2%;
     margin-bottom : 7%;
   }
   .skills button{
@@ -205,48 +204,58 @@ html, body{
   }
 
   .add-skill-form-container{
-    padding-left: 0.5%;
-    padding-right: 0.5%;
+
+
+    padding: 0.3%;
     margin-bottom: 1rem;
     background-color: white;
-    padding-top : 0.5%;
-    padding-bottom : 0.5%;
-    /*border:0.5px outset black ;background:white;*/
     border-radius: 3px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 35%;
+    width: 27%;
     float: right;
 
   }
 
   #skill-row{
-    height: 18%;
+    height: 16%;
     padding-top : 2%;
   }
 
   #add-skill-name{
     padding-top : 1%;
-    padding-right : 6%;
+    padding-right: 10%;
     font-family: Vazir-Bold;
+    text-align: right;
+    width: 16.2%;
+    margin : 0%;
+    float : right;
   }
 
   .add-skill-form-container .add-skill-form .add-skill-input{
     background: #f9f9f9;
     border : 1px solid #eeeeee;
     width : 68%;
-    padding : 2% 3%;
+    padding : 3px;
     text-align: left;
-    
+    height : 40px; 
   }
   
   .add-skill-button{
     background-color: rgb(23, 153, 164);
     font-family: Vazir-1;
+    font-size: 90%;
     color: white;
     border-radius: 4px;
     width: 30%;
-    height : 60%;
+    height : 40px;
+    padding: 3px;
   }
+
+  @-moz-document url-prefix() {
+
+    .add-skill-button { padding-top: 10px;}
+
+}
 
   .add-skill-button:hover{
 
@@ -260,8 +269,8 @@ html, body{
     font-family: Vazir;
     font-size: 90%;
     background-color: rgb(246, 246, 246);
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
     padding-top: 2%;
     margin-bottom: 0%;
   }
