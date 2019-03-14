@@ -17,7 +17,7 @@
   background-color: white;
   height: 6%;
   margin-top : 0.5%;
-  margin-left : 8%;
+  margin-left : 0%;
 }
 
 .header-img {
@@ -103,6 +103,7 @@
   text-align:center ;
   top: 10px;
   font-weight:bold;
+  padding-left: 190px;
 }
 
 .time {
@@ -110,18 +111,21 @@
   right: 200px;
   top: 15px;
   font-weight:bold;
+  padding-left: 190px;
 }
 .budget {
   color: mediumturquoise;
   right: 200px;
   top:5px;
   font-weight:bold;
+  padding-left: 190px;
 }
 .descriptionTitle{
   color: black;
   right: 200px;
   top: 3px;
   font-weight:bold;
+  padding-left: 190px;
 }
 .description{
   color: black;
