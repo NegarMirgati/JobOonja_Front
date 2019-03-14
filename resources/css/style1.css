@@ -139,7 +139,7 @@
   border-style: inset inset dashed inset;
   display: inline-block;
   color: darkturquoise;
-  height: 240px;
+  height: 30%;
   margin-top: 0px;
   background-color: white;
 }
@@ -147,7 +147,7 @@
 .skillsBorder {
   border-style: none inset inset inset;
   display: inline-block;
-  height: 100px;
+  height: 30%;
   margin-top: 0px;
   background-color: snow;
 
@@ -156,7 +156,7 @@
 .resultsBorder {
   border-style: none inset inset inset;
   display: inline-block;
-  height: 70px;
+  height: 30%;
   margin-top: 0px;
   background-color: white;
 
@@ -184,6 +184,7 @@
   font-weight:bold;
   top: 10px;
   right: 7px;
+  display: inline;
 }
 
 .footer {
