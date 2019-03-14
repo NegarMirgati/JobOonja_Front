@@ -1,4 +1,3 @@
-
 @import url("../fonts/iransans-fonts/");
 .footer {
   position: fixed;
@@ -234,10 +233,3 @@
   url('./iransans/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'), url('./iransans/woff/IRANSansWeb_UltraLight.woff') format('woff'),
   url('./iransans/ttf/IRANSansWeb_UltraLight.ttf') format('truetype');
 }
-
-
-
-
-
-
-
