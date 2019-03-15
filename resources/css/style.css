@@ -222,6 +222,10 @@ html, body{
     top : 0%;
   }
 
+  .reg-blue-box{
+    height: 40%;
+  }
+
   .skills{
     padding-left : 12%;
     overflow: scroll;
@@ -315,6 +319,74 @@ html, body{
 
   .main-background{
     background-color: rgb(246, 246, 246);
+  }
+
+  @keyframes slideshow {
+    10% {left: 0;}
+    20% {left: 0;}
+    30% {left: -100%;}
+    40% {left: -100%;}
+    50% {left: -200%;}
+    60% {left: -200%;}
+    70% {left: -300%;}
+    80% {left: -300%;}
+    90% {left: -400%;}
+    100% {left: -400%}
+  }
+  
+  
+  #slider{
+    z-index: 10;
+    overflow:hidden;
+    width:40%;
+    height: 60%;
+    margin:1% auto;
+    margin-top: 8%;
+    border: 10% solid black;
+    border-radius: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #slider figure img{
+    width:20%;
+    float:left;
+  }
+  #slider figure{
+    position:relative;
+    width:500%;
+    margin:0;
+    left:0;
+    text-align:left;
+    animation:20s slideshow infinite
+  }
+
+  .slide-img{
+    width: 40%;
+    height: 90%;
+  }
+  
+  @media screen and (max-width: 767px) {#slider {overflow: hidden; width: 100%; margin: 0 auto;}}
+
+  .register-container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-style: dashed;
+    border-color: rgb(35, 209, 220);
+    padding-right : 5%;
+    padding-left : 5%;
+    text-align: center;
+    padding-top: 1%;
+    border-radius: 2%;
+    width: 40%;
+    margin-left: 30%;
+    overflow : scroll;
+  }
+
+  .register-container .register-form{
+    font-family: Vazir-1;
+  }
+
+  .register-container .register-form input{
+    width : 40%;
   }
 
 @font-face {
