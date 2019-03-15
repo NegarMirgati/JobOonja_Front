@@ -105,10 +105,24 @@
   padding-left: 190px;
 }
 
-.time {
+.timePos {
   color: #c6c8ca;
   right: 200px;
   top: 15px;
+  font-weight:bold;
+  padding-left: 190px;
+}
+.timeNeg {
+  color: red;
+  right: 200px;
+  top: 15px;
+  font-weight:bold;
+  padding-left: 190px;
+}
+.winner{
+  color: green;
+  right: 200px;
+  top: 2%;
   font-weight:bold;
   padding-left: 190px;
 }
@@ -149,7 +163,8 @@
   display: inline-block;
   height: 10%;
   margin-top: 0px;
-  background-color: snow;
+  background-color: rgb(246, 246,246);
+  padding-bottom: 2%;
 
 }
 
@@ -167,6 +182,7 @@
   position:relative;
   direction:rtl;
   text-align:right;
+  font-family: Vazir;
 }
 .text {
   color: #0f6674;
@@ -179,6 +195,10 @@
 }
 .btnColor {
   background-color: white;
+}
+
+.bodyColor {
+  background-color: rgb(246, 246,246);
 }
 
 .bidFormTitle{
