@@ -421,6 +421,180 @@
     width : 40%;
   }
 
+  .Bluebar {
+  position: relative;
+  padding: 156px 0 10px;
+  background : rgb(186, 239, 241);
+  z-index: -1;
+
+}
+
+.position {
+  position: absolute;
+  padding-left: 240px;
+  padding-right: 50px;
+  top: 110px;
+}
+
+.color {
+  background-color: snow;
+}
+
+
+.project-photo
+  {
+    position: absolute;
+    top: 20px;
+    left: 80%;
+    width: 17%;
+    height: 75%;
+    border: 8px solid white;
+    }
+
+.insideRowPos {
+   right: 200px;
+}
+
+.projectTitle {
+  color: #0a0a0a;
+  text-align:center ;
+  top: 10px;
+  font-weight:bold;
+  padding-left: 190px;
+}
+
+.timePos {
+  color: rgb(99, 99, 99);
+  top: 15px;
+  font-weight:bold;
+  padding-left: 190px;
+}
+.timeNeg {
+  color: red;
+  top: 15px;
+  font-weight:bold;
+  padding-left: 190px;
+}
+.winner{
+  color: rgb(28, 147,75);
+  top: 2%;
+  font-weight:bold;
+  padding-left: 190px;
+}
+.budget {
+  color: rgb(17, 132, 139);
+  top:5px;
+  font-weight:bold;
+  padding-left: 190px;
+}
+.descriptionTitle{
+  color: black;
+  top: 3px;
+  font-weight:bold;
+  padding-left: 190px;
+}
+.description{
+  color: black;
+  top: 3px;
+  padding-left: 190px;
+
+}
+
+.projectBorder {
+  border-style: none none dashed none;
+  display: inline-block;
+  color: darkturquoise;
+  height: 10%;
+  margin-top: 0px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 5px 5px 0px 0px;
+}
+
+.skillsBorder {
+  display: inline-block;
+  height: 10%;
+  margin-top: 0px;
+  background-color: rgb(246, 246,246);
+  padding-bottom: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
+
+}
+
+.resultsBorder {
+  display: inline-block;
+  height: 10%;
+  margin-top: 0px;
+  background-color: white;
+  padding-bottom: 1%;
+  margin-bottom: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 0px 0px 5px 5px;
+
+
+}
+.textPosition {
+  position:relative;
+  direction:rtl;
+  text-align:right;
+  font-family: Vazir;
+}
+.text {
+  color: rgb(17, 132, 139);
+  font-weight:bold;
+  top: 10px;
+  right: 7px;
+}
+.badgeColor {
+  background-color: rgb(186, 239, 241);
+}
+.btnColor {
+  background-color: white;
+}
+
+.bodyColor {
+  background-color: rgb(246, 246,246);
+}
+
+.bidFormTitle{
+  font-weight: bold;
+  color: black;
+  top:5px;
+}
+
+.bidForm{
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+.bidBtnColor {
+  background-color: darkturquoise;
+  color: white;
+}
+
+.bidColor {
+  background-color: white;
+  color:darkturquoise;
+}
+.bidBorder{
+  border:1px solid darkturquoise;
+}
+
+.result {
+  font-weight:bold;
+  top: 10px;
+  right: 7px;
+  display: inline;
+}
+.resultPos {
+  color: rgb(28, 147,75);
+}
+
+.resultNeg {
+  color: red;
+}
+
+
 @font-face {
     font-family: Vazir;
     src: url('../fonts/vazir-font-v19.2.0/Vazir.eot');
