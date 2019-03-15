@@ -126,7 +126,7 @@
 
   #parallelogram-2 {
     width: 10.5%;
-    height: 15%;
+    height: 14.8%;
     transform: skew(-30deg);
     background: rgb(108, 197, 201);
     top : 43%;
@@ -136,8 +136,8 @@
   }
 
   #parallelogram-1 {
-    width: 11%;
-    height: 15%;
+    width: 10.9%;
+    height: 14.8%;
     transform: skew(-30deg);
     background: rgb(130, 218, 222);
     top : 43%;
@@ -176,7 +176,7 @@
 
   .profile-name
   {
-    top : 43%;
+    top : 43.5%;
     right : 29.5%;
     padding-top: 2%;
     display: inline-block;
@@ -237,7 +237,7 @@
     margin-bottom : 7%;
   }
   .skills button{
-    padding : 4px;
+    padding : 1%;
   }
 
   .skills button:hover{
@@ -286,7 +286,7 @@
   .add-skill-button{
     background-color: rgb(23, 153, 164);
     font-family: Vazir-1;
-    font-size: 90%;
+    font-size: 80%;
     color: white;
     border-radius: 4px;
     width: 30%;
