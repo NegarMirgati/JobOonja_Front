@@ -13,9 +13,9 @@
 <nav class="site-header sticky-top py-1">
       <div class="container d-flex flex-column flex-md-row">  
         <a class="d-inline-block h-100 p-1 "  href="#">خروج </a>
-        <a id = "account" class="d-inline-block h-100 p-1 " href="#">حساب کاربری</a>
+        <a id = "account" class="d-inline-block h-100 p-1 "  href="my-profile.html">حساب کاربری</a>
         <div class="d-inline h-100 p-1">
-          <img class = "header-img" src = "resources/logo/logo v2.png"/>
+        <div id = "homelogo"> <a href="home.html"><img class = "header-img" src = "resources/logo/logo v2.png"/> </a> </div>
         </div>
 
       </div>
@@ -30,7 +30,7 @@
         <figure>
             <img class="img-rounded slide-img img-responsive" src="resources/images/slide6.jpg" />
             <img class="img-rounded slide-img img-responsive" src="resources/images/slide2.jpg" />
-            <img class="img-rounded slide-img img-responsive" src="resources/images/slide3.jpg" />
+            <img class="img-rounded slide-img img-responsive" src="resources/images/slide8.jpg" />
             <img class="img-rounded slide-img img-responsive" src="resources/images/slide7.jpg" />
             <img class="img-rounded slide-img img-responsive" src="resources/images/slide5.jpg" />
         </figure>
@@ -42,14 +42,25 @@
 <div class = "row">
   <div class = "col-sm-12">
     <div class = "register-container">
+    <p id = "register"> ساخت حساب کاربری جدید </p>
        <form class = "register-form">
-             <label for="نام"><b>نام : </b></label> <input type="text" name="نام" value =><br><br>
-             <label for="نام خوانوادگی"><b>نام خوانوادگی : </b></label> <input type="text" name="نام خانوادگی"><br><br>
-            <label for="یوزرنیم"><b>یوزرنیم : </b></label> <input type="text" name="یوزرنیم"><br><br>
-             <label for="پسورد"><b> پسورد : </b></label> <input type="password" name="پسورد"><br><br>
-              <label for="بیو"><b> بیو : </b></label> <input type="text" name="بیو"><br><br>
-              <label for="لینک تصویر پروفایل"><b> لینک تصویر پروفایل : </b></label> <input type="text" name="لینک تصویر پروفایل"><br><br>
-             <button type = "button" class = "add-skill-button" > ثبت نام </button>
+          <label for="نام"><b>نام</b></label><br> 
+          <input type="text" name="نام" value ="" placeholder="نام"><br>
+          <label for="نام خوانوادگی"><b>نام خوانوادگی</b></label><br>
+          <input type="text" name="نام خانوادگی" placeholder = "نام خانوادگی"><br>
+          <label for="یوزرنیم"><b>نام کاربری</b></label><br>
+          <input type="text" name="نام کاربری" placeholder = "نام کاربری"><br>
+          <label for="رمز عبور"><b>رمز عبور</b></label><br>
+          <input type="password" name="رمز عبور" placeholder= "رمز عبور"><br>
+           <label for="تکرار رمز عبور "><b>تکرار رمز عبور</b></label><br>
+          <input type="password" name="تکرار رمز عبور" placeholder= "تکرار رمز عبور"><br>
+          <label for="عنوان شغلی"><b>عنوان شغلی</b></label><br>
+          <input type="text" name="عنوان شغلی" placeholder = "عنوان شغلی"><br>
+          <label for="بیو"><b>بیو</b></label><br>
+          <input type="text" name="بیو" placeholder = "بیو"><br>
+          <label for="لینک تصویر پروفایل"><b>لینک تصویر پروفایل</b></label><br>
+          <input type="text" name="لینک تصویر پروفایل" placeholder = "لینک تصویر پروفایل"><br><br>
+          <button type = "button" class = "add-skill-button" > ثبت نام </button>
           </form>
     </div>
   </div>
