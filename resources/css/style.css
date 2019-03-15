@@ -279,8 +279,10 @@
     border : 1px solid #eeeeee;
     width : 68%;
     padding : 3px;
-    text-align: left;
+    text-align: right;
+    direction : rtl;
     height : 40px; 
+    font-family: Vazir-1;
   }
   
   .add-skill-button{
@@ -296,7 +298,7 @@
 
   @-moz-document url-prefix() {
 
-    .add-skill-button { padding-top: 10px;}
+    .add-skill-button { padding-top: 6px;}
 
 }
 
